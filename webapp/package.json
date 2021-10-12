@@ -60,7 +60,7 @@
     "eslint": "^7.6.0",
     "eslint-import-resolver-webpack": "^0.12.2",
     "eslint-plugin-header": "^3.0.0",
-    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-import": "^2.25.1",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-mattermost": "github:mattermost/eslint-plugin-mattermost#8f9eb1414bf9ebfb509359bddddfad9788ca3c3c",
     "eslint-plugin-react": "^7.20.5",
