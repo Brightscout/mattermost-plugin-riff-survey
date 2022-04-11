@@ -46,7 +46,7 @@ jobs:
         run: |
           echo ::set-output name=BUNDLE_NAME::mattermost-plugin-$(grep '"'"id"'"\s*:\s*"' plugin.json | head -1 | cut -d'"' -f4)-v$(grep '"'"version"'"\s*:\s*"' plugin.json | head -1 | cut -d'"' -f4).tar.gz
 
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: ${{ steps.prepare_artifact_metadata.outputs.BUNDLE_NAME }}
           path: dist/${{ steps.prepare_artifact_metadata.outputs.BUNDLE_NAME }}
